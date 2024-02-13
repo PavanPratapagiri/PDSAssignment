@@ -10,7 +10,7 @@ Original file is located at
 import pandas as pd
 
 # Reading the CSV file
-file_path = "/content/StudentsPerformance.csv"
+file_path = "Assignment-1/Question_2/raw_data/StudentsPerformance.csv"
 student_data = pd.read_csv(file_path)
 
 # Displaying summary statistics of the dataset
