@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the cleaned data
-clean_file_path = "/content/clean_frailty_data1.csv"
+clean_file_path = "/Users/pavanpratapagiri/PDS/PDSAssignment/Assignment-1/Question_1/clean_data/clean_frailty_data1.csv"
 data = pd.read_csv(clean_file_path)
 
 # Perform EDA (e.g., visualize distributions, correlations, etc.)
@@ -52,5 +52,4 @@ with open(result_file_path, 'w') as file:
     file.write("T-test results for comparing weight between frail and non-frail groups:\n")
     file.write("T-statistic: {}\n".format(t_statistic))
     file.write("P-value: {}\n".format(p_value))
-    file.write("Degree of Freedom: {}\n".format(degree_of_freedom))
 
