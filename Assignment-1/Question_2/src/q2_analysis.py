@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Reading the CSV file
-Student = pd.read_csv("/content/clean_data_file.csv")
+Student = pd.read_csv("/Users/pavanpratapagiri/PDS/PDSAssignment/Assignment-1/Question_2/clean_data/clean_data_file.csv")
 
 # Getting info of complete CSV
 print(Student.info())
